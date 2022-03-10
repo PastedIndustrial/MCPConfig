@@ -1,0 +1,11 @@
+--- a/net/minecraft/block/state/BlockState.java
++++ b/net/minecraft/block/state/BlockState.java
+@@ -57,7 +57,7 @@
+          blockstate$stateimplementation1.func_177235_a(map);
+       }
+ 
+-      this.field_177625_e = ImmutableList.copyOf(list);
++      this.field_177625_e = ImmutableList.<IBlockState>copyOf(list);
+    }
+ 
+    public ImmutableList<IBlockState> func_177619_a() {

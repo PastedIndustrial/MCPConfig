@@ -1,0 +1,10 @@
+--- a/net/minecraft/client/stream/IngestServerTester.java
++++ b/net/minecraft/client/stream/IngestServerTester.java
+@@ -206,6 +206,7 @@
+       }
+    }
+ 
++   @SuppressWarnings("incomplete-switch")
+    public void func_153041_j() {
+       if(!this.func_153032_e() && this.field_153047_e != IngestServerTester.IngestTestState.Uninitalized) {
+          if(!this.field_176008_y && !this.field_176007_z) {

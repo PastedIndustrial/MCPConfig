@@ -1,0 +1,2 @@
+PUBLIC net/minecraft/server/dedicated/DedicatedServer func_71190_q ()V
+PUBLIC net/minecraft/server/integrated/IntegratedServer func_71217_p ()V

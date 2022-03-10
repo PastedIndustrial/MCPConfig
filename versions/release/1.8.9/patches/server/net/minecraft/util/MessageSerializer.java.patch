@@ -1,0 +1,15 @@
+--- a/net/minecraft/util/MessageSerializer.java
++++ b/net/minecraft/util/MessageSerializer.java
+@@ -37,9 +37,9 @@
+          packetbuffer.func_150787_b(integer.intValue());
+ 
+          try {
+-            if(p_encode_2_ instanceof S0CPacketSpawnPlayer) {
+-               p_encode_2_ = p_encode_2_;
+-            }
++//            if(p_encode_2_ instanceof S0CPacketSpawnPlayer) {
++//               p_encode_2_ = p_encode_2_;
++//            }
+ 
+             p_encode_2_.func_148840_b(packetbuffer);
+          } catch (Throwable throwable) {
